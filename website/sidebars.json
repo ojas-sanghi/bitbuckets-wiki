@@ -1,0 +1,18 @@
+{
+  "getting-started": {
+    "Getting Started": [
+       "doc2"
+    ]
+ },
+  "engineering": {
+    "Engineering": [
+       {
+          "type": "subcategory",
+          "label": "Design",
+          "ids": [
+             "engineering/design/SOLIDWORKS-Installation"
+          ]
+       }
+    ]
+ }
+}
