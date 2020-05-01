@@ -38,34 +38,26 @@ class Footer extends React.Component {
           </a>
           <div>
             <h5>Docs</h5>
-            <a href={this.docUrl('Getting-Started')}>
-              Getting Started
+            <a href={this.docUrl('design/SOLIDWORKS-Installation')}>
+              Design
             </a>
-            <a href={this.docUrl('guides/Using-trtlbot-plus-plus.html')}>
-              Guides
+            <a href={this.docUrl('software/Software-Getting-Started')}>
+              Software
             </a>
-            <a href={this.docUrl('developer/Resources.html')}>
-              Developer Resources
+            <a href={this.docUrl('fabrication/fab-placeholder')}>
+              Fabrication
             </a>
-          </div>
-          <div>
-            <h5>Community</h5>
-            <a href="http://chat.turtlecoin.lol/">Discord Chat</a>
-            <a href="https://reddit.com/r/trtl/">Reddit</a>
-            <a
-              href="https://twitter.com/_turtlecoin"
-              target="_blank"
-              rel="noreferrer noopener">
-              Twitter
+            <a href={this.docUrl('electrical/electric-placeholder')}>
+              Electrical
             </a>
           </div>
           <div>
-            <h5>More</h5>
-            <a href="https://blog.turtlecoin.lol/">Blog</a>
-            <a href="https://github.com/turtlecoin">GitHub</a>
+            <h5>Links</h5>
+            <a href="https://bitbuckets.org/">Website</a>
+            <a href="https://github.com/bitbucketsfrc4183">GitHub</a>
             <a
               className="github-button"
-              href="https://github.com/turtlecoin/turtlecoin-docs"
+              href="https://github.com/BitBucketsFRC4183/FRC2020_Infinite_Recharge/"
               data-icon="octicon-star"
               data-count-href={`${repoUrl}/stargazers`}
               data-show-count="true"
