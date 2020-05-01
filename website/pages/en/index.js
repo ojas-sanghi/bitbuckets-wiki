@@ -64,9 +64,8 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
-            <Button href="https://turtlecoin.lol">Official Website</Button>
-            <Button href="https://github.com/turtlecoin">GitHub Org</Button>
-            <Button href="http://chat.turtlecoin.lol">Discord Chat</Button>
+            <Button href="https://bitbuckets.org">Official Website</Button>
+            <Button href="https://github.com/bitbucketsfrc4183">GitHub Organization</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -100,28 +99,28 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
-            content: 'Learn more about TurtleCoin and the community	',
-            image: `${baseUrl}img/undraw_community.svg`,
+            content: "What's 'clearance'?",
+            image: `${baseUrl}img/undraw_design.svg`,
             imageAlign: 'top',
-            title: `<a href=${docUrl("about/About-TurtleCoin")}>About TurtleCoin</a>`,
+            title: `<a href=${docUrl("design/SOLIDWORKS-Installation")}>Design</a>`,
           },
           {
-            content: 'A guide on setting up a TurtleCoin wallet to start receiving some turtles!',
-            image: `${baseUrl}img/undraw_wallet.svg`,
+            content: 'Hacker code hacker code',
+            image: `${baseUrl}img/undraw_software.svg`,
             imageAlign: 'top',
-            title: `<a href=${docUrl("guides/wallets/Making-a-Wallet")}>Make a Wallet</a>`,
+            title: `<a href=${docUrl("software/Software-Getting-Started")}>Software</a>`,
           },
           {
-            content: 'A step-by-step guide to start mining TurtleCoin',
-            image: `${baseUrl}img/undraw_monitor.svg`,
+            content: 'Watch out: lasers',
+            image: `${baseUrl}img/undraw_fab.svg`,
             imageAlign: 'top',
-            title: `<a href=${docUrl("guides/mining/Mining")}>Mine TurtleCoin</a>`,
+            title: `<a href=${docUrl("fabrication/fab-placeholder")}>Fabrication</a>`,
           },
           {
-            content: 'Information on contributing to TurtleCoin',
-            image: `${baseUrl}img/undraw_contribute.svg`,
+            content: 'BZZZZZ',
+            image: `${baseUrl}img/undraw_circuit.svg`,
             imageAlign: 'top',
-            title: `<a href=${docUrl("about/Contributing")}>Contributing</a>`,
+            title: `<a href=${docUrl("electrical/electric-placeholder")}>Electrical</a>`,
           }
         ]}
       </Block>
@@ -131,10 +130,10 @@ class Index extends React.Component {
       <Block background="light">
         {[
           {
-            content: '',
-            image: `${baseUrl}img/undraw_money.svg`,
+            content: 'We compete in robotics competitions and other technical challenges',
+            image: `${baseUrl}img/undraw_robot.svg`,
             imageAlign: 'right',
-            title: 'TurtleCoin is a fast, easy and private cryptocurrency which allows you to send money to friends and businesses.',
+            title: 'Bit Buckets Robotics is a community-based middle and high-school STEM team.',
           },
         ]}
       </Block>
@@ -144,10 +143,10 @@ class Index extends React.Component {
       <Block>
         {[
           {
-            content: '',
-            image: `${baseUrl}img/undraw_fun.svg`,
+            content: 'Including leadership, teamwork, and time-management. Students also help with fundraising and competition logistics',
+            image: `${baseUrl}img/undraw_teamwork.svg`,
             imageAlign: 'left',
-            title: "One of TurtleCoin's main goals is to make things as simple and as accessible as possible for everyday people, creating a cryptocurrency which is inviting, fun, and friendly.",
+            title: "In addition to hands-on engineering, students experience all aspects of running a team",
           },
         ]}
       </Block>
@@ -157,11 +156,10 @@ class Index extends React.Component {
       <Block background="light">
         {[
           {
-            content:
-              `<MarkdownBlock> Come join us on [Discord](http://chat.turtlecoin.lol) or [Reddit](https://reddit.com/r/trtl)</MarkdownBlock>`,
-            image: `${baseUrl}img/undraw_questions.svg`,
+            content:'Students attend elite colleges and universities such as Harvard, MIT, Stanford, Carnegie Mellon, and UC Berkeley',
+            image: `${baseUrl}img/undraw_university.svg`,
             imageAlign: 'right',
-            title: `Have Questions or Need Help?`,
+            title: `Our students get to work with U of A professors and top engineers from around the world, including Raytheon and the military`,
           },
         ]}
       </Block>

@@ -1,12 +1,26 @@
 {
-  "engineering": {
+  "design": {
     "Design": [
        "design/SOLIDWORKS-Installation"
     ]
  },
  "software": {
-    "Software": [
+    "Getting Started": [
       "software/Software-Getting-Started"
+    ],
+    "Guides": [
+        "software/Deploying-Code",
+        "software/Limelight-Tuning"
     ]
+ },
+ "fabrication": {
+     "Fabrication": [
+         "fabrication/fab-placeholder"
+     ]
+ },
+ "electrical": {
+     "Electrical": [
+         "electrical/electric-placeholder"
+     ]
  }
 }
