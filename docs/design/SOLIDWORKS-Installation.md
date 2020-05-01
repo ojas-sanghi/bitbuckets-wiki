@@ -2,11 +2,13 @@
 title: SOLIDWORKS Installation Process
 ---
 
+Here's a guide to get Solidworks installed/updated:
+
 ## 1. Copy Settings / Uninstall SOLIDWORKS
 
 *Note*: If you do not have a previous version of SOLIDWORKS installed on your computer, you may skip this part.
 
-### 1A - Copy Settings
+### Copy Settings
 
 1. Launch your currently installed version of Solidworks
 2. Click on the settings drop-down
@@ -27,7 +29,7 @@ title: SOLIDWORKS Installation Process
 8. Click “Finish”
 9.  Close SW
 
-### 1B - Uninstall SOLIDWORKS
+### Uninstall SOLIDWORKS
 
 1. Open Windows Control Panel
 2. Select “Uninstall A Program”
@@ -95,9 +97,7 @@ If you get an error like this, follow the given steps. Otherwise, continue from 
 10. Click Finish.
 11. Choose “Restart Later” and restart at your soonest convenience.
 
-## 3. Install SOLIDWORKS
-
-### Part 3A
+## 3. Setup SOLIDWORKS
 
 1. Launch SOLIDWORKS.
 2. A popup may come up with menu/UI changes. Accept the new menu/UI changes.
@@ -106,17 +106,4 @@ If you get an error like this, follow the given steps. Otherwise, continue from 
 5. Accept any license agreements and popups that open.
 6. Once SOLIDWORKS launches, close it.
 
-### Part 3B
-
-1. Close any running GrabCAD instance
-2. Uninstall GrabCAD  
-    a. Open control panel  
-    b. Select “Uninstall a Program”  
-    c. Locate and select “GrabCAD Workbench”  
-    d. Right-click and select Uninstall  
-    e. Click OK  
-3. Go to https://grabcad.com/downloadworkbench
-4. Launch the downloaded installer
-5. Check “Also install the SolidWorks Add-in”
-6. Click next and agree
-7. Click install
+You're all done! You've successfully installed Solidworks on your system. Woo-hoo!

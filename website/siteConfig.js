@@ -26,7 +26,10 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'design/SOLIDWORKS-Installation', label: 'only guide here'},
+    {doc: 'design/SOLIDWORKS-Installation', label: 'Design'},
+    {doc: 'software/Software-Getting-Started', label: 'Software'},
+    {doc: 'fabrication/fab-placeholder', label: 'Fabrication'},
+    {doc: 'electrical/electric-placeholder', label: 'Electrical'},
     { search: true }
   ],
 
