@@ -35,7 +35,7 @@ You can always visit the [Limelight Docs](https://docs.limelightvision.io/en/lat
 Or, just do it however you find it best. It doesn't necessarily have to be in this order, this is just what I find to be the best.
 :::
 
-:::info
+:::tip
 If it's really thin then try increasing the dilation to 1, it should make it really thick  
 If you do this, do it **BEFORE** contour filtering! Otherwise, you'll have to re-do the contour stuff
 :::
