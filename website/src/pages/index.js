@@ -8,42 +8,32 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <a href={withBaseUrl('design/SOLIDWORKS-Installation')}> Design </a>,
-    imageUrl: 'img/undraw_design.svg',
+    title: 'Bit Buckets Robotics is a community-based middle and high-school STEM team',
+    imageUrl: 'img/undraw_robot.svg',
     description: (
       <>
-        What's 'clearance'?.
-      </>
-    ),
-    // link: 'design/SOLIDWORKS-Installation'
-  },
-  {
-    title: <a href={withBaseUrl('software/Software-Getting-Started')}> Software </a>,
-    imageUrl: 'img/undraw_software.svg',
-    description: (
-      <>
-        Hacker code hacker code
+        We compete in robotics competitions and other technical challenges
       </>
     ),
   },
   {
-    title: <a href={withBaseUrl('fabrication/fab-placeholder')}> Fabrication </a>,
-    imageUrl: 'img/undraw_fab.svg',
+    title: "In addition to hands-on engineering, students experience all aspects of running a team",
+    imageUrl: 'img/undraw_teamwork.svg',
     description: (
       <>
-        Watch out: lasers
+        Including leadership, teamwork, and time-management. Students also help with fundraising and competition logistics
       </>
     ),
   },
   {
-    title: <a href={withBaseUrl('electrical/electric-placeholder')}> Electrical </a>,
-    imageUrl: 'img/undraw_circuit.svg',
+    title: 'Our students get to work with U of A professors and top engineers from around the world',
+    imageUrl: 'img/undraw_university.svg',
     description: (
       <>
-        BZZZZZ
+        Students attend elite colleges and universities such as Harvard, MIT, Stanford, Carnegie Mellon, and UC Berkeley
       </>
     ),
-  },
+  }
 ];
 
 function Home() {
@@ -59,17 +49,6 @@ function Home() {
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <div className={styles.buttons}>
-            <Link
-              className={classnames(
-                'button button--secondary button--lg',
-                styles.getStarted,
-              )}
-              to={withBaseUrl('docs/overview')}
-            >
-              Get Started
-            </Link>
-          </div>
         </div>
       </header>
       <main>
@@ -77,7 +56,7 @@ function Home() {
           <section className={styles.features}>
             <div className="container">
               <div className="row">
-                {features.map(({ imageUrl, title, description, link }, idx) => (
+                {features.map(({ imageUrl, title, description }, idx) => (
                   <div
                     key={idx}
                     className={classnames('col col--4', styles.feature)}
@@ -92,7 +71,6 @@ function Home() {
                       </div>
                     )}
                     <h3>{title}</h3>
-                    {/* <h3><a href={withBaseUrl({link})}>{title}</a></h3> */}
                     <p>{description}</p>
                   </div>
                 ))}

@@ -1,26 +1,20 @@
 {
-  "design": {
-    "Design": [
-       "design/SOLIDWORKS-Installation"
-    ]
- },
- "software": {
-    "Getting Started": [
-      "software/Software-Getting-Started"
-    ],
-    "Guides": [
-        "software/Deploying-Code",
-        "software/Limelight-Tuning"
-    ]
- },
- "fabrication": {
-     "Fabrication": [
-         "fabrication/fab-placeholder"
-     ]
- },
- "electrical": {
-     "Electrical": [
-         "electrical/electric-placeholder"
-     ]
- }
+  "design": [
+    "design/SOLIDWORKS-Installation"
+  ],
+ "software": [
+    "software/Software-Getting-Started",
+    {
+        "Guides": [
+            "software/Deploying-Code",
+            "software/Limelight-Tuning"
+        ]
+    }
+],
+ "fabrication": [
+    "fabrication/fab-placeholder"
+],
+ "electrical": [
+    "electrical/electric-placeholder"
+]
 }
