@@ -9,7 +9,7 @@ title: Deploying code to the RoboRIO
 4. Open the project folder in VS Code
 5. In the bottom left of the window, right click on `build.gradle` and press `Deploy Robot Code`  
 
-   ![deploy button pos](../../assets/deploy_code_button.png)
+   ![deploy button pos](/img/deploy_code_button.png)
     Note: your window may look a bit different than mine (colors, etc) since I have a custom theme enabled
 
     > Alternatively, press `Shift` + `F5` on your keyboard (keyboard shortcuts, guys)
