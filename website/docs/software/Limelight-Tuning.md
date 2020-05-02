@@ -31,10 +31,14 @@ You can always visit the [Limelight Docs](https://docs.limelightvision.io/en/lat
    2. Worry about the white part being as white and thick as possible
    3. **Value** is probably going to be the most important so just decrease the first two to where it's not crazy noisy then work on value, then come back to the others
    
-> Or, just do it however you find it best. It doesn't necessarily have to be in this order, this is just what I find to be the best.
+:::note
+Or, just do it however you find it best. It doesn't necessarily have to be in this order, this is just what I find to be the best.
+:::
 
-> If it's really thin then try increasing the dilation to 1, it should make it really thick  
-> If you do this, do it **BEFORE** contour filtering! Otherwise, you'll have to re-do the contour stuff
+:::info
+If it's really thin then try increasing the dilation to 1, it should make it really thick  
+If you do this, do it **BEFORE** contour filtering! Otherwise, you'll have to re-do the contour stuff
+:::
 
 8. Switch to contour filtering
 9. Most likely fullness and W/H ratio are going to be the most important, so set those to the maximum then lower them until the bounding boxes fit as best as they can.

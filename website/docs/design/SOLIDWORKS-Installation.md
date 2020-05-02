@@ -71,9 +71,7 @@ Here's a guide to get Solidworks installed/updated:
 6. Click Next. A system check should run briefly
 7. The default download and installation options should be OK. Click the License Agreement checkbox and then “Download and Install”.
 
----
-
-### Possible Error
+:::caution Possible Error
 
 If you get an error like this, follow the given steps. Otherwise, continue from step 8.
 
@@ -87,7 +85,7 @@ If you get an error like this, follow the given steps. Otherwise, continue from 
 
 4. Click “Back to Summary”
 
----
+:::
 
 8. It will start downloading and installing SOLIDWORKS. This will take a while.
 9. Click “Yes, I want to join” for the SOLIDWORKS Customer Experience Improvement Program
