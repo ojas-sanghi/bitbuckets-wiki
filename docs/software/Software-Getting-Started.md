@@ -15,11 +15,9 @@ This document is a basic “what-to-install” guide to function on the software
 
 VS Code is the IDE via which we program our robot  
 
-Download: https://code.visualstudio.com/download
-
-Once downloaded, add WPILib software: 
-- https://wpilib.screenstepslive.com/s/currentCS/m/java is the installation guide
-- https://github.com/wpilibsuite/allwpilib/releases has the installs that include VS Code (scroll down to `WPILibInstaller_Windows[32/64]... .zip`)
+Do NOT install it from their website, you need a FRC-specific one. Download it from here:  
+https://github.com/wpilibsuite/allwpilib/releases  
+Scroll down to `WPILibInstaller_Windows[32/64]... .zip`)
 
 **Install #2: Gitkraken**  
 
@@ -38,10 +36,9 @@ Click on installer of most recent version of CTRE software, as of June 2018 is �
 **Install #4: NI FRC Software Update Suite**
 
 Allows for radio configuration tool, RoboRIO imaging tool, and Driver Station which allows for robot connection  
-Link here: http://www.ni.com/download/first-robotics-software-2017/7904/en/  
-(2019) If needed, decrypt zip with $Robots&in#SPACE!!  
-(2019) Serial number B04P64663  
-
+Link here: http://www.ni.com/download/first-robotics-software-2017/7904/en/   
+(2020) If needed, decrypt zip with `R!$E2geTHeR#2020`
+(2020) Serial number B04P87693  
 
 ----
 
