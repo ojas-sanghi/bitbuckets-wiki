@@ -6,7 +6,7 @@ module.exports = {
           docs: {
             // sidebars file relative to website dir.
             sidebarPath: require.resolve('./sidebars.json'),
-            routeBasePath: '',
+            routeBasePath: '/',
             showLastUpdateTime: true,
           },
           theme: {
@@ -47,7 +47,7 @@ module.exports = {
                 alt: 'BitBuckets',
                 src: 'img/logo.png',
             },
-            links: [
+            items: [
                 {to: 'design/SOLIDWORKS-Installation', label: 'Design', position: 'left'},
                 {to: 'software/Software-Getting-Started', label: 'Software', position: 'left'},
                 {to: 'fabrication/fab-placeholder', label: 'Fabrication', position: 'left'},
@@ -63,10 +63,10 @@ module.exports = {
           copyright: `Copyright © ${new Date().getFullYear()} BitBuckets`, // You can also put own HTML here
         },
         image: '/img/logo.png',
-        algolia: {
+        // algolia: {
             //apiKey; '123',
             //indexName: 'bitbuckets-wiki',
             //algoliaOptions: {},
-        },
+        // },
     },
 };
