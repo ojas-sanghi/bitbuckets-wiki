@@ -36,7 +36,7 @@ CTRE manufactures (most of) the motor controllers we use http://www.ctr-electron
 **Install #4: NI FRC Software Update Suite**
 
 Allows for radio configuration tool, RoboRIO imaging tool, and Driver Station which allows for robot connection  
-Link here: https://www.ni.com/en-us/support/downloads/drivers/download.frc-game-tools.html#369633 
+Link here: https://www.ni.com/en-us/support/downloads/drivers/download.frc-game-tools.html#369633  
 (2020) If needed, decrypt zip with `R!$E2geTHeR#2020`  
 (2020) Serial number B04P87693  
 
