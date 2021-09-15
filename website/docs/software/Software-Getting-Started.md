@@ -30,13 +30,13 @@ Download: https://www.gitkraken.com/
 **Install #3: CTRE Installation Guide**  
 
 CTRE manufactures (most of) the motor controllers we use http://www.ctr-electronics.com/talon-srx.html#product_tabs_technical_resources  
-Click on installer of most recent version of CTRE software, as of June 2018 is “Phoenix”  
+(2021) Download the one labeled "Talon SRX Firmware 21.0 CRF - FRC2021 (.zip)" 
 
 
 **Install #4: NI FRC Software Update Suite**
 
 Allows for radio configuration tool, RoboRIO imaging tool, and Driver Station which allows for robot connection  
-Link here: http://www.ni.com/download/first-robotics-software-2017/7904/en/   
+Link here: https://www.ni.com/en-us/support/downloads/drivers/download.frc-game-tools.html#369633 
 (2020) If needed, decrypt zip with `R!$E2geTHeR#2020`  
 (2020) Serial number B04P87693  
 
